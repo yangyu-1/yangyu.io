@@ -1,4 +1,4 @@
-baseurl = "https://www.yangyu.io"
+baseurl = "https://yangyu.io"
 title = "yangyu.io"
 theme = "hugo-coder"
 languagecode = "en"
@@ -28,7 +28,8 @@ pygmentscodefencesguesssyntax = true
     rtl = false
 
     math = true
-    # custom_css = ["css/custom.css"]
+
+    custom_css = ["css/custom.css"]
 
 [taxonomies]
   category = "categories"
