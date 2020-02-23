@@ -29,7 +29,7 @@ pygmentscodefencesguesssyntax = true
 
     math = true
 
-    custom_css = ["css/custom.css"]
+    # custom_css = ["css/custom.css"]
 
 [taxonomies]
   category = "categories"
