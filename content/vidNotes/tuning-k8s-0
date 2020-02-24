@@ -3,9 +3,20 @@ title: "Tuning K8s 0"
 date: 2020-02-23T19:42:17-05:00
 draft: true
 ---
-I once heard a data scientist said in an interview "everyday i get a bit closer to googling what kubernetes is." I think many data scientists would agree with that sentiment. Everyone can feel that kubernetes is becoming more important, but are unclear how it actually relates to data science. Furthermore, the few DS folks who do mange to type kubernetes into google are often bombarded with a slew of articles bolstering how great kubernetes is, but provides little information on what kubernetes does, or how it can help with DS workloads
+Many data scientist are interested in Kubernetes. However, since kubernetes is still relatively new, there is almost no information on how it can be applied to ML problems.
 
 In this video series, I'm going to take a well understood ML problem, parameter tuning, and build a pipeline backed by kubernetes to run the training. If you ever wonder how to run parameter tuning on 500 cpu cores, this video will show you how to do that. My hope is that by showing you what kubernetes can do, instead of merely telling you, it'd help you understand what kubernetes is, and how it may be applied to your own day to day work.
 
 The video will utilize Google Cloud Kubernetes service, call GKE. As of the time of this video, Feb, 2020, you can sign up for Google Cloud and get a $300 credit. Making this video I've spend about $10 out of the $300 credit.
 
+Check out the post I wrote for this series, it contains notes, intended audience, additional readings, links, and more. I kept the video somewhat brief, it certainly wouldn't be enough to teach you kubernetes. If you like to learn more, I linked some additional resources that I've found useful. see description for details
+
+Let's first start by thinking how you would build parallelize a task using Python. First of all, you would start with a well define task, then you'd write some code to break the task into chunks. And finally you would call python's pool method to execute on the chunks, using some or all of your CPU cores. 
+
+Our Kubernetes-backed pipe line looks something similar. We start with a well define task, in this case a param grid, then in a Jupyter notebook, we'll break the task into chunks, format them, and send it to a message queue. On the other side of the message queue, we'll have hundreds of workers waiting to accept the message and execute the training. As each training task completes, we'll save it to a database.
+
+In this tutorial, we'll use Kubernetes to start the message queue, the worker nodes, and the database. We could abstract away the message queue and database by using existing cloud solutions, but this is a tutorial after all, so we'll build them ourselves.
+
+In this video - demo
+and next video - local
+finally how to use kubernetes to parallelize everything
