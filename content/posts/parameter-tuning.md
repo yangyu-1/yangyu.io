@@ -21,4 +21,4 @@ I made this video [series](https://www.youtube.com/watch?v=6sZKiSbcwTc&list=PL63
 The target audience for this video series is a data scientist that is somewhat familiar with Kubernetes concepts. I didn't want to do a [Kubernetes for beginner video](https://www.youtube.com/watch?v=r0uRLhrzbtU&list=PL2We04F3Y_43dAehLMT5GxJhtk3mJtkl5), since I think there are plenty of excellent [resources](https://www.amazon.com/gp/product/1617293725/) in this area, and I don't have much to add. What I wanted to do is to show one instance of how to combine ML and Kubernetes, even if it is for a unrealistic project. I wanted to show how easy it is to deploy something in Kubernetes. And hopefully you can walk away with some ideas to how to apply Kubernetes to your workflow.
 
 
-I hope you find this video useful. Feel free to [reach out](https://yangyu.io/about/).
+I hope you find this video useful. Feel free to [reach out](https://yangyu.io/about/) via email or [twitter](https://twitter.com/Yangyu505).
