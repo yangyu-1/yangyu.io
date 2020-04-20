@@ -10,3 +10,5 @@ hugo.linux
 
 # vscode
 .vscode/
+# ds store
+.DS_Store

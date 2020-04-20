@@ -1,12 +1,12 @@
 +++ 
 draft = false
-date = 2020-02-23T10:24:41-05:00
-title = "This is the first project"
+date = 2020-04-20T10:24:41-05:00
+title = "Parameter Tuning XGBoost, CatBoost, and LightGBM with Kubernetes"
 description = "an example first project"
-slug = "first-project123" 
-translationKey = "first_post"
-tags = []
-categories = []
+slug = "parameter-tuning" 
+translationKey = "parameterTuning"
+tags = [kubernetes, gke]
+categories = [parameter tuning]
 +++
 
-first post
+Parameter tuning
