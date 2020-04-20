@@ -5,7 +5,7 @@ title = "Parameter Tuning XGBoost, CatBoost, and LightGBM with Kubernetes"
 description = "an example first project"
 slug = "parameter-tuning" 
 translationKey = "parameterTuning"
-tags = ['kubernetes', 'gke]'
+tags = ['kubernetes', 'gke']
 categories = ['parameter tuning']
 +++
 
