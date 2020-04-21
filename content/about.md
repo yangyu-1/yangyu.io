@@ -14,4 +14,4 @@ I learned a lot over the years with free resources on the Internet. Hopefully wi
 
 DevOps, especially Kubernetes, and ML both receive a lot of criticism online; some are nonsense, some are accurate. I guess any new and emerging field will have its fair share of excitement, opportunists, and charlatans. Hopefully you will find this website a bit more pragmatic, a little less hyped.
 
-Side note: I'm still learning how to make educational videos on YT. It is definitely harder than I expected. if you have any tips and tricks you can share on recording/editing, I would love to hear from you.
+Side note: I'm still learning how to make educational videos on YT. It is definitely harder than I expected. if you have any tips and tricks you can share on recording/editing/what mic should get for better sound quality, I would love to hear from you.
