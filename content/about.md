@@ -8,4 +8,4 @@ Hi. My name is Yang. I'm an Analyst working at an east coast E-commerce company,
 
 I spend my childhood in China and came to the US when I was about 12. Incidentally, I don't speak Chinese or English that well. I went to high school in a small town in New Mexico, college in southeastern US, went back to the southwest for a few years, and now resides in Pennsylvania.
 
-I did Economics in school, with a few CS courses. Owing my career to online resources, for me this website and the YT channel is an attempt to pay it forward. Please reach out at yang at yangyu.io; I would love to hear from you.
+I did Economics in school, with a few CS courses. Owing my career to online resources, this website and the YT channel is an attempt for me to pay it forward. Please reach out at yang at yangyu.io; I would love to hear from you.
